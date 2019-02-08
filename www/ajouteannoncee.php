@@ -14,7 +14,7 @@ session_start();
     <body>
         <div id="bloc_page">
             <header>
-                <h1>Bienvenue <?php echo $_SESSION['UserPseudo']; ?> sur la platforme de vente illégal</h1>
+                <h1>Bienvenue <?php echo $_SESSION['UserPseudo']; ?> sur la platforme de vente illégale</h1>
                 
             </header>
 

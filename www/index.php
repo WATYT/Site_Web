@@ -16,7 +16,7 @@ $_SESSION['UserPseudo'] = null;
     <body>
         <div id="bloc_page">
             <header>
-                <h1>Bienvenue sur la platforme de vente illégal</h1>
+                <h1>Bienvenue sur la platforme de vente illégale</h1>
                 
             </header>
 
