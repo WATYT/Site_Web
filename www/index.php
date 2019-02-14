@@ -24,6 +24,10 @@ $_SESSION['UserPseudo'] = null;
             
             <div id="sommaire">
                 <table>
+                <audio controls autoplay loop>
+                            <source src="son/allday.mp3" type="audio/mpeg" >
+                            Your browser does not support the audio tag.
+                        </audio>
                         <tr>
                             <td> <a href="enregistrement.php">S'enregistrer</a> </td>
                         </tr>
@@ -40,10 +44,11 @@ $_SESSION['UserPseudo'] = null;
                                 <input type="submit" value="Envoyer"/>
                             </p>
                         </form>
-
+                        
             </div>
             
 		</div>
     </body>
+    
 </html>
 

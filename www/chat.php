@@ -19,6 +19,10 @@ session_start();
 
             <div id="sommaire">
                 <table>
+                <audio controls autoplay loop>
+                            <source src="son/niviro.mp3" type="audio/mpeg" >
+                            Your browser does not support the audio tag.
+                        </audio>
                         <tr>
                             <td> <a href="index.php">Déconnexion</a> </td>
                             <td> <a href="chat.php">Tchat</a> </td>
