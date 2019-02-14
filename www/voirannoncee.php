@@ -4,7 +4,7 @@ $username = 'root';
 $password = '';
 $bdd = new PDO('mysql:host=127.0.0.1; dbname=compteutilisateur;charset=utf8',$username,$password);
 $reponse = $bdd->query(
-    'SELECT annonce.id as id, annonce.titre as titre, compteutilisateur.pseudo as pseudo, annonce.type as type, annonce.description as description, annonce.prix as prix 
+    'SELECT annonce.id as id, annonce.titre as titre, compteutilisateur.pseudo as pseudo, annonce.type as type, annonce.description as description, annonce.prix as prix, annonce.image as image 
 FROM annonce INNER JOIN compteutilisateur 
 ON annonce.id_user = compteutilisateur.id
 ORDER BY annonce.id DESC'
@@ -63,6 +63,9 @@ ORDER BY annonce.id DESC'
                 <h4>Type :  <?php echo $row['type']; ?> </h4>
                 <h4>Description :  <?php echo $row['description']; ?> </h4>
                 <h4>Prix (en $):  <?php echo $row['prix']; ?> </h4>
+                <a href="<?php echo $row['image'] ?>" target="_blank">
+                <img src="<?php echo $row['image'] ?>" alt="Image" width="90%">
+                </a>
                 <img src="img/noir.png" alt="Noir" height="5" width="100%">
                 </p>
                 <?php

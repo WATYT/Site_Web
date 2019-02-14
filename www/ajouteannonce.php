@@ -12,15 +12,16 @@ if (isset($_POST['titre']) AND isset($_POST['type']) AND isset($_POST['descripti
     $type = $_POST['type'];
     $description = $_POST['description'];
     $prix = $_POST['prix'];
-    
+    $image = $_POST['image'];
 
-    $req = $bdd->prepare('INSERT INTO annonce(titre, id_user, type, description, prix) VALUES(:titre, :id_user, :type, :description, :prix)');
+    $req = $bdd->prepare('INSERT INTO annonce(titre, id_user, type, description, prix, image) VALUES(:titre, :id_user, :type, :description, :prix, :image)');
     $req->execute(array(
     'titre' => $titre,
 	'id_user' => $id_user,
 	'type' => $type,
     'description' => $description,
     'prix' => $prix,
+    'image' => $image,
         ));
     header('Location: ./ajouteannoncee.php');
 }

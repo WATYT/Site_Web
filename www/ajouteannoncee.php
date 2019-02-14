@@ -44,6 +44,7 @@ session_start();
                                 <label for="type">Service</label> : <input type="radio" name="type" value="service" required/> <br/>
                                 <label for="description">Description</label> : <input type="text" name="description" id="description" required /><br>
                                 <label for="prix">Prix (en $)</label> : <input type="text" name="prix" id="prix" /><br>
+                                <label for="image">Lien de l'image</label> : <input type="text" name="image" id="image" /><br>
                                 <input type="submit" value="Envoyer"/>
                             </p>
                         </form>
