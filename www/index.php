@@ -44,10 +44,40 @@ $_SESSION['UserPseudo'] = null;
                                 <input type="submit" value="Envoyer"/>
                             </p>
                         </form>
-                        
+                        <img src="img/noir.png" alt="Noir" height="5" width="100%">
+                        <h1>Sur le site vous retrouverez :</h1>
+                        <h3>Drogue</h3>
+                        <img src="img/java1.jpg" alt="Image" width="90%">  
+                        <h3>Arme</h3> 
+                        <img src="img/java2.jpg" alt="Image" width="90%">
+                        <h3>Argent</h3>
+                        <img src="img/java3.jpg" alt="Image" width="90%"> 
+                        <img src="img/noir.png" alt="Noir" height="5" width="100%">
+                            <p>
+                            <h2>Le site comportera les fonctionnalités suivantes :</h2>
+                            <ul>
+                            <li>Création de compte privée (accès à la mise en vente et à l’achat)</li>
+                            <li>Ajouter des annonces en tout genre (interface, photos, noms, descriptions)</li>
+                            <li>Consulter les annonces (interface, photos, noms, descriptions)</li>
+                            <li>Supprimer ses annonces</li>
+                            <li>Recherche d’objets (filtre, type)</li>
+                            <li>Tchat général</li>
+                            </ul>
+                            <h2>Améliorations futurs :</h2>
+                            <ul>
+                            <li>Notation des utilisateurs</li>
+                            <li>Mise en place de mot interdit (annonce et tchat)</li>
+                            <li>tchat privé entre 2 utilisateurs</li>
+                            </ul>
+                            <img src="img/noir.png" alt="Noir" height="5" width="100%">
+                            <h3>Site créé dans le cadre du module de WEB</h3>
+                            <h3>Par : WATY Théophane</h3>
+                            <h3>Etudiant en LP MEEDD</h3>
+                            </p>
             </div>
-            
-		</div>
+
+        </div>
+    
     </body>
     
 </html>
